@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-position: center;
+    background-size: cover;
+}
+.container{
+     opacity: 2px;
+    height: 100%;
+    background-position: center;
+  
+}
+.bar_respond img {
+    width: 150px;
+    height: 150px;
+
+margin-left: 10px;
+padding-top: 10px;
+}
+.bar_respond{
+    display: flex;
+    
+}
+.li_liste{
+margin-left: 27%;
+padding-top: 60px;
+    background-color: azure;
+    width: 700px;
+    height: 150px;
+}
+.li_liste img{
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.vue_transparente
+{
+  padding-top: 100px;
+    display: flex;
+}
+.nos_services{
+    margin-left: 30px;
+    padding-bottom: 50px;
+    font-size: 25px;
+   
+}
+.logo_viation{
+    width: 700px;
+    height: 500px;
+}
+.logo_viation img{
+    width: 500px;
+    height: 500px;
+    margin-left: 40%;
+    border-radius: 600px;
+    
+}
+.adresse{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left:20px ;
+    list-style: none;
+    color: rgb(117, 66, 66);
+    font-size: larger;
+   
+
+}
+.adresse p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adresse li{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reservation{
+    
+    text-align: center;
+    text-decoration: none;
+    margin-left: 500px;
+    width: 500px;
+    height: 200px;
+    
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 40px;
+   
+    border-radius: 10px;
+
+}
+.bouton2{
+    background-color: red;
+    height: 50px;
+    border-radius: 10px;
+    content: '';
+  
+}
+.bouton2:hover{
+    background-color: rgb(148, 32, 38);
+}
+.bouton{
+    background-color:green;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.lig_2{
+    display: flex;
+   
+}
+
+
+
+
+

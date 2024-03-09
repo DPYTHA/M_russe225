@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(./tof_kazan.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#video{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 900px;
+    height: 100%;
+    background-color:rgb(240, 233, 233);
+    margin-left: 20%;
+   border-left: 3px solid;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header{
+    background-color: rgb(167, 125, 75);
+    height: 300px;
+
+}
+.design h1{
+    margin-left: 10px;
+    padding-top: 16%;
+    font-size: 160px;
+    
+   
+}
+.design span{
+    color: oldlace;
+    background-color: orangered;
+
+}
+.para_text{
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.para_text a{
+    text-decoration: none;
+    color: orangered;
+}
+.les_togg{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    padding-top: 16px;
+    margin-left: 120px;
+
+}
+
+
+#togg1{
+    width: 300px;
+    height: 50px;
+    border-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+
+
+}
+#togg2{
+    width: 300px;
+    height: 50px;
+    border-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+#togg2,#togg1{
+    background-color: azure;
+    position: relative;
+    content: '';
+}
+#togg2, #togg1:hover{
+    background-color: rgb(188, 169, 133);
+}
+#togg2,#togg1{
+    background-color: azure;
+    position: relative;
+    content: '';
+}
+#togg2:hover{
+    background-color: rgb(188, 169, 133);
+}
+
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+  }
+  label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+  }​
+  .pays{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    -moz-box-align: center;
+  }
+  input[type=file]{
+    width: 150px;
+    height: 50px;
+
+  }
+  .select{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    background: #292929;
+    text-align: left;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .chargement{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 140px;
+    border: 2px solid;
+    text-align: center;
+    position: relative;
+    content: '';
+
+  }
+  .chargement:hover{
+    background-color: bisque;
+  }
+  input[type="submit"]{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    position: relative;
+    content: '';
+  }
+  input[type="submit"]:hover{
+    background-color: bisque;
+  }
+

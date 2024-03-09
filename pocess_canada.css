@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.titre{
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+    background-color: rgb(223, 202, 175);
+    border-width: 3px;
+    border: solid 5px;
+    border-top-color: brown;
+    
+}
+.header h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: brown;
+}
+.mon_logo img{
+    width: 330px;
+    height: 150px;
+
+}
+
+.container{
+    background-color: whitesmoke
+}
+.schema{
+    display: flex;
+    text-align: center;
+}
+.info_gauche{
+    width: 550px;
+    height: 1700px;
+    padding-top: 15px;
+    
+   
+}
+.info_for_admission{
+    width: 400px;
+    height: 390px;
+    font-size: 30px;
+    background-color: green;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 12, 12);
+    border: solid 5px;
+    border-color: rgb(88, 84, 84);
+    border-width: 5px;
+}
+.info_for_admission h1{
+    color: azure;
+    padding: 10px;
+    font-size: 40px;
+}
+.info_for_admission span{
+    color: rgb(239, 231, 226);
+}
+.permit_etude{
+    width: 500px;
+    height: 520px;
+    font-size: 30px;
+    
+    background-color: rgb(19, 81, 216);
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 12, 12);
+    border: solid 5px;
+    border-color:orangered;
+    border-width: 5px;
+}
+.permit_etude a{
+    color: beige;
+}
+.contact_whatssap{
+  font-size: 20px;  width: 150px;
+  color: orange;
+    height: 50px;
+    padding: 70px;
+}
+.contact_whatssap a{
+    color: rgb(24, 160, 99);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact_whatssap img{
+    width: 140px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.info_mil{
+    width: 200px;
+    height: 700px;
+    margin-left: 100px;
+    background-color: white;
+    
+}
+.info_mil ul li{
+    list-style  : none;
+}
+.info_mil h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.info_mil img{
+    width: 50px;
+}
+.trait{
+    width: 25px;
+    height:300px ;
+    border-radius: 20px;
+    margin-left:88px ;
+    background-color: black;
+}
+
+
+.info_droite{
+    width: 560px;
+    height: 1700px;
+    margin-left: 100px;
+    
+    
+}
+.info_CAQ{
+    width: 400px;
+    height: 480px;
+    font-size: 30px;
+    background-color: rgb(142, 36, 41);
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 12, 12);
+    border: solid 5px;
+    border-color: rgb(88, 84, 84);
+    border-width: 5px;
+    text-decoration: none;
+}
+.info_CAQ  a{
+color: beige;
+
+}
+.info_CAQ span{
+    color: antiquewhite;
+}
+.doc_voyages{
+    width: 500px;
+    height: 600px;
+    font-size: 30px;
+    background-color: rgb(211, 192, 27);
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 12, 12);
+    border: solid 5px;
+    border-color: rgb(88, 84, 84);
+    border-width: 5px;
+    text-decoration: none;
+}
+.doc_voyages li{
+    color: brown;
+    list-style: none;
+    text-align: left;
+}
+
+footer{
+    display: flex;
+    list-style: none;
+    height: 300px;
+    background-color: rgb(21, 20, 20);
+    color: rgb(102, 89, 89);
+}
+.map img{
+    width: 400px;
+    height:100 ;
+padding: 30px;
+}
+footer span{
+    color: bisque;
+}
+footer h1{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+footer .contact{
+padding-left: 400px;
+padding-top: 60px;
+list-style: none;
+}
+footer ul li {
+    list-style: none;}
